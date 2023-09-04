@@ -23,7 +23,7 @@ jobs:
     steps:
       
       - name: checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: container registry login
         uses: docker/login-action@a9794064588be971151ec5e7144cb535bcb56e36
